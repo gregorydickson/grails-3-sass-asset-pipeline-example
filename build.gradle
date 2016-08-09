@@ -8,8 +8,8 @@ buildscript {
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
-        //classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.10.2"
-        classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.9.4"
+        classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.10.2"
+        //classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.9.4"
         classpath "org.grails.plugins:hibernate4:5.0.10"
     }
 }
@@ -56,11 +56,11 @@ dependencies {
     console "org.grails:grails-console"
     profile "org.grails.profiles:web"
     //updated to 2.10.2
-    runtime 'com.bertramlabs.plugins:asset-pipeline-grails:2.9.4'
-    assets 'com.bertramlabs.plugins:sass-asset-pipeline:2.9.4'
+    //runtime 'com.bertramlabs.plugins:asset-pipeline-grails:2.9.4'
+    //assets 'com.bertramlabs.plugins:sass-asset-pipeline:2.9.4'
 
-    //runtime 'com.bertramlabs.plugins:asset-pipeline-grails:2.10.2'
-    //assets 'com.bertramlabs.plugins:sass-asset-pipeline:2.10.2'
+    runtime 'com.bertramlabs.plugins:asset-pipeline-grails:2.10.2'
+    assets 'com.bertramlabs.plugins:sass-asset-pipeline:2.10.2'
 
     runtime "com.h2database:h2"
     testCompile "org.grails:grails-plugin-testing"
